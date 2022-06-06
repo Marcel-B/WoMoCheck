@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0944DF284E9A2400CEA7B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0944DE284E9A2400CEA7B1 /* AppDelegate.swift */; };
+		1F0944E1284E9A2400CEA7B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0944E0284E9A2400CEA7B1 /* SceneDelegate.swift */; };
+		1F0944E3284E9A2400CEA7B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0944E2284E9A2400CEA7B1 /* ViewController.swift */; };
+		1F0944E6284E9A2400CEA7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0944E4284E9A2400CEA7B1 /* Main.storyboard */; };
+		1F0944E8284E9A2700CEA7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0944E7284E9A2700CEA7B1 /* Assets.xcassets */; };
+		1F0944EB284E9A2700CEA7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0944E9284E9A2700CEA7B1 /* LaunchScreen.storyboard */; };
+		1F0944F6284E9A2700CEA7B1 /* WoMo_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0944F5284E9A2700CEA7B1 /* WoMo_CheckTests.swift */; };
+		1F094500284E9A2700CEA7B1 /* WoMo_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0944FF284E9A2700CEA7B1 /* WoMo_CheckUITests.swift */; };
+		1F094502284E9A2700CEA7B1 /* WoMo_CheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F094501284E9A2700CEA7B1 /* WoMo_CheckUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0944F2284E9A2700CEA7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0944D3284E9A2400CEA7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0944DA284E9A2400CEA7B1;
+			remoteInfo = "WoMo-Check";
+		};
+		1F0944FC284E9A2700CEA7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0944D3284E9A2400CEA7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0944DA284E9A2400CEA7B1;
+			remoteInfo = "WoMo-Check";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0944DB284E9A2400CEA7B1 /* WoMo-Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoMo-Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0944DE284E9A2400CEA7B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F0944E0284E9A2400CEA7B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F0944E2284E9A2400CEA7B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F0944E5284E9A2400CEA7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0944E7284E9A2700CEA7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0944EA284E9A2700CEA7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F0944EC284E9A2700CEA7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0944F1284E9A2700CEA7B1 /* WoMo-CheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoMo-CheckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0944F5284E9A2700CEA7B1 /* WoMo_CheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoMo_CheckTests.swift; sourceTree = "<group>"; };
+		1F0944FB284E9A2700CEA7B1 /* WoMo-CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoMo-CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0944FF284E9A2700CEA7B1 /* WoMo_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoMo_CheckUITests.swift; sourceTree = "<group>"; };
+		1F094501284E9A2700CEA7B1 /* WoMo_CheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoMo_CheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0944D8284E9A2400CEA7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944EE284E9A2700CEA7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944F8284E9A2700CEA7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0944D2284E9A2400CEA7B1 = {
+			isa = PBXGroup;
+			children = (
+				1F0944DD284E9A2400CEA7B1 /* WoMo-Check */,
+				1F0944F4284E9A2700CEA7B1 /* WoMo-CheckTests */,
+				1F0944FE284E9A2700CEA7B1 /* WoMo-CheckUITests */,
+				1F0944DC284E9A2400CEA7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0944DC284E9A2400CEA7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0944DB284E9A2400CEA7B1 /* WoMo-Check.app */,
+				1F0944F1284E9A2700CEA7B1 /* WoMo-CheckTests.xctest */,
+				1F0944FB284E9A2700CEA7B1 /* WoMo-CheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0944DD284E9A2400CEA7B1 /* WoMo-Check */ = {
+			isa = PBXGroup;
+			children = (
+				1F0944DE284E9A2400CEA7B1 /* AppDelegate.swift */,
+				1F0944E0284E9A2400CEA7B1 /* SceneDelegate.swift */,
+				1F0944E2284E9A2400CEA7B1 /* ViewController.swift */,
+				1F0944E4284E9A2400CEA7B1 /* Main.storyboard */,
+				1F0944E7284E9A2700CEA7B1 /* Assets.xcassets */,
+				1F0944E9284E9A2700CEA7B1 /* LaunchScreen.storyboard */,
+				1F0944EC284E9A2700CEA7B1 /* Info.plist */,
+			);
+			path = "WoMo-Check";
+			sourceTree = "<group>";
+		};
+		1F0944F4284E9A2700CEA7B1 /* WoMo-CheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0944F5284E9A2700CEA7B1 /* WoMo_CheckTests.swift */,
+			);
+			path = "WoMo-CheckTests";
+			sourceTree = "<group>";
+		};
+		1F0944FE284E9A2700CEA7B1 /* WoMo-CheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0944FF284E9A2700CEA7B1 /* WoMo_CheckUITests.swift */,
+				1F094501284E9A2700CEA7B1 /* WoMo_CheckUITestsLaunchTests.swift */,
+			);
+			path = "WoMo-CheckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0944DA284E9A2400CEA7B1 /* WoMo-Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F094505284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-Check" */;
+			buildPhases = (
+				1F0944D7284E9A2400CEA7B1 /* Sources */,
+				1F0944D8284E9A2400CEA7B1 /* Frameworks */,
+				1F0944D9284E9A2400CEA7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WoMo-Check";
+			productName = "WoMo-Check";
+			productReference = 1F0944DB284E9A2400CEA7B1 /* WoMo-Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0944F0284E9A2700CEA7B1 /* WoMo-CheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F094508284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-CheckTests" */;
+			buildPhases = (
+				1F0944ED284E9A2700CEA7B1 /* Sources */,
+				1F0944EE284E9A2700CEA7B1 /* Frameworks */,
+				1F0944EF284E9A2700CEA7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0944F3284E9A2700CEA7B1 /* PBXTargetDependency */,
+			);
+			name = "WoMo-CheckTests";
+			productName = "WoMo-CheckTests";
+			productReference = 1F0944F1284E9A2700CEA7B1 /* WoMo-CheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F0944FA284E9A2700CEA7B1 /* WoMo-CheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F09450B284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-CheckUITests" */;
+			buildPhases = (
+				1F0944F7284E9A2700CEA7B1 /* Sources */,
+				1F0944F8284E9A2700CEA7B1 /* Frameworks */,
+				1F0944F9284E9A2700CEA7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0944FD284E9A2700CEA7B1 /* PBXTargetDependency */,
+			);
+			name = "WoMo-CheckUITests";
+			productName = "WoMo-CheckUITests";
+			productReference = 1F0944FB284E9A2700CEA7B1 /* WoMo-CheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0944D3284E9A2400CEA7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1F0944DA284E9A2400CEA7B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1F0944F0284E9A2700CEA7B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1F0944DA284E9A2400CEA7B1;
+					};
+					1F0944FA284E9A2700CEA7B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1F0944DA284E9A2400CEA7B1;
+					};
+				};
+			};
+			buildConfigurationList = 1F0944D6284E9A2400CEA7B1 /* Build configuration list for PBXProject "WoMo-Check" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0944D2284E9A2400CEA7B1;
+			productRefGroup = 1F0944DC284E9A2400CEA7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0944DA284E9A2400CEA7B1 /* WoMo-Check */,
+				1F0944F0284E9A2700CEA7B1 /* WoMo-CheckTests */,
+				1F0944FA284E9A2700CEA7B1 /* WoMo-CheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0944D9284E9A2400CEA7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0944EB284E9A2700CEA7B1 /* LaunchScreen.storyboard in Resources */,
+				1F0944E8284E9A2700CEA7B1 /* Assets.xcassets in Resources */,
+				1F0944E6284E9A2400CEA7B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944EF284E9A2700CEA7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944F9284E9A2700CEA7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0944D7284E9A2400CEA7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0944E3284E9A2400CEA7B1 /* ViewController.swift in Sources */,
+				1F0944DF284E9A2400CEA7B1 /* AppDelegate.swift in Sources */,
+				1F0944E1284E9A2400CEA7B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944ED284E9A2700CEA7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0944F6284E9A2700CEA7B1 /* WoMo_CheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0944F7284E9A2700CEA7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F094500284E9A2700CEA7B1 /* WoMo_CheckUITests.swift in Sources */,
+				1F094502284E9A2700CEA7B1 /* WoMo_CheckUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0944F3284E9A2700CEA7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0944DA284E9A2400CEA7B1 /* WoMo-Check */;
+			targetProxy = 1F0944F2284E9A2700CEA7B1 /* PBXContainerItemProxy */;
+		};
+		1F0944FD284E9A2700CEA7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0944DA284E9A2400CEA7B1 /* WoMo-Check */;
+			targetProxy = 1F0944FC284E9A2700CEA7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F0944E4284E9A2400CEA7B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0944E5284E9A2400CEA7B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0944E9284E9A2700CEA7B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0944EA284E9A2700CEA7B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F094503284E9A2700CEA7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F094504284E9A2700CEA7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F094506284E9A2700CEA7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WoMo-Check/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F094507284E9A2700CEA7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WoMo-Check/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F094509284E9A2700CEA7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoMo-Check.app/WoMo-Check";
+			};
+			name = Debug;
+		};
+		1F09450A284E9A2700CEA7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-CheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoMo-Check.app/WoMo-Check";
+			};
+			name = Release;
+		};
+		1F09450C284E9A2700CEA7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WoMo-Check";
+			};
+			name = Debug;
+		};
+		1F09450D284E9A2700CEA7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GGU8ET2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcelbenders.WoMo-CheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WoMo-Check";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0944D6284E9A2400CEA7B1 /* Build configuration list for PBXProject "WoMo-Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F094503284E9A2700CEA7B1 /* Debug */,
+				1F094504284E9A2700CEA7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F094505284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F094506284E9A2700CEA7B1 /* Debug */,
+				1F094507284E9A2700CEA7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F094508284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-CheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F094509284E9A2700CEA7B1 /* Debug */,
+				1F09450A284E9A2700CEA7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F09450B284E9A2700CEA7B1 /* Build configuration list for PBXNativeTarget "WoMo-CheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F09450C284E9A2700CEA7B1 /* Debug */,
+				1F09450D284E9A2700CEA7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0944D3284E9A2400CEA7B1 /* Project object */;
+}
